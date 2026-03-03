@@ -1,0 +1,18 @@
+# world
+public class OOPSBannerApp {
+
+    /**
+     * Main method - Entry point
+     */
+    public static void main(String[] args) {
+
+        System.out.println(" *****    *****    *****    ***** ");
+        System.out.println("*     *  *     *  *     *  *     *");
+        System.out.println("*     *  *     *  *     *  *     *");
+        System.out.println("*     *  *     *  *     *  *     *");
+        System.out.println("*     *  *     *  *     *  *     *");
+        System.out.println("*     *  *     *  *     *  *     *");
+        System.out.println(" *****    *****    *****    ***** ");
+
+    }
+}
