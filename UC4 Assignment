@@ -1,0 +1,26 @@
+# world
+public class OOPSBannerApp {
+
+    /**
+     * Main method - Entry point
+     */
+    public static void main(String[] args) {
+
+        // Creating banner using String array
+        String[] banner = {
+
+                String.join("  ", " ***** ", " ***** ", " ***** ", " ***** "),
+                String.join("  ", "*     *", "*     *", "*     *", "*     *"),
+                String.join("  ", "*     *", "*     *", "*     *", "*     *"),
+                String.join("  ", "*     *", "*     *", "*     *", "*     *"),
+                String.join("  ", "*     *", "*     *", "*     *", "*     *"),
+                String.join("  ", "*     *", "*     *", "*     *", "*     *"),
+                String.join("  ", " ***** ", " ***** ", " ***** ", " ***** ")
+        };
+
+        // Printing banner using enhanced for-loop
+        for (String line : banner) {
+            System.out.println(line);
+        }
+    }
+}
