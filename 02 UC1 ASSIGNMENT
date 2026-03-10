@@ -1,0 +1,17 @@
+# world
+// UC1 : Display Hello World
+// Demonstrates a simple Java program that prints text to console
+
+public class UC1HelloWorld {
+
+    public static void main(String[] args) {
+
+        // message variable
+        String message = "Hello World";
+
+        // print message to console
+        System.out.println(message);
+
+    }
+}
+
